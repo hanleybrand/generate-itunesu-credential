@@ -8,6 +8,7 @@ import urllib2
 import time
 import hashlib
 import hmac
+from os import system
 
 def engage():
 
@@ -95,6 +96,6 @@ def invoke_action(siteurl, token, username):
     f.write(the_page)
 
     f.close()
-    #print "Content-type: text/html\n\n"
-    #print the_page
+
+    system("open %s &" % filename)
 
