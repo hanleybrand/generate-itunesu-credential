@@ -17,7 +17,7 @@ not distribute an app that contains your entire site login, but rather sub-secti
 Regardless, using this app instead of a webapp with authentication should only be a stopgap until you have a more secure system in place. 
 
 ## 
-The file declared below (launch-itu.py) will/must be included
+The file declared in setup.py (launch-itu.py) will/must be included
 in the app, but other .py files are compiled and source is not
 included (that's why launch-itu.py is like that, so you're not
 distributing your shared secret).
